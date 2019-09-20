@@ -1,0 +1,14 @@
+.dialogues {
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-areas:
+            "namesList messages";
+}
+
+.dialogue-item {
+    grid-area: "namesList";
+}
+
+.messages {
+    grid-area: "messages";
+}

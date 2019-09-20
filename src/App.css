@@ -1,0 +1,16 @@
+.app-wrapper {
+    display: grid;
+    width: 600px;
+    margin: 0 auto;
+
+    grid-template-columns: 100px 500px;
+    grid-template-rows: 50px;
+    grid-template-areas:
+            "header header"
+            "sidebar main";
+}
+
+.app-wrapper__content {
+    grid-area: main;
+    background-color: antiquewhite;
+}

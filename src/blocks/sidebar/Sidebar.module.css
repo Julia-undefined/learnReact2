@@ -1,0 +1,27 @@
+.sidebar {
+  grid-area: sidebar;
+  background-color: aliceblue;
+}
+
+.nav {
+  /*margin: 10px;*/
+}
+
+.item {
+  padding: 15px;
+}
+
+.item:hover{
+  cursor: pointer;
+  background-color: blanchedalmond;
+  text-decoration: none;
+}
+
+.item a {
+  text-decoration: none;
+  color: black;
+}
+
+.item a.active {
+  background-color: blanchedalmond;
+}

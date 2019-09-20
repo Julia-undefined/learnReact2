@@ -1,0 +1,7 @@
+.avatar {
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: burlywood;
+    width: 50px;
+    margin-right: 10px;
+}
